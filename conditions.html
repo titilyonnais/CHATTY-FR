@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatty FR | Accueil</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://kit.fontawesome.com/96dcb489df.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>CHATTY FR</h1>
+        </div>
+        <!-- menu responsive -->
+        <div class="toggle-menu"></div>
+
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="forums.html">Forums</a></li>
+            <li><a href="contacter.html">Me contacter</a></li>
+            <li><a href="propos.html">A propos</a></li>
+        </ul>
+    </header>
+    <section>
+        <div class="left">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text">
+            </div>
+            <hr>
+            <h1>Bienvenue sur CHATTY FR, j'espère que tu ne sera pas déçu !</h1>
+        </div>
+        <!-- right div -->
+        <div class="right">
+             <img src="images/img.png">
+        </div>
+    </section>
+
+    <footer>
+        <h5>Des questions ? Appellez le 07-81-19-53-82</h5>
+        <h3>© 2022 Chatty FR</h3>
+        <h2> <a href="conditions.html">Conditions générales d'utilisation</a> | <a href="mentions.html">Mentions légales</a></h2>
+        <p>Lyon, France</p>
+      </footer>
+
+<script>
+    var menu = document.querySelector(".menu");
+    var toggle_menu = document.querySelector(".toggle-menu");
+    toggle_menu.onclick = function(){
+        toggle_menu.classList.toggle('active') ;
+        menu.classList.toggle('responsive') ;
+    }
+</script>
+
+</body>
+</html>
