@@ -1,77 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatty FR | Accueil</title>
-    <link rel="stylesheet" href="style1.css">
+    <title>1DUSTRY | HOME</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
     <script src="https://kit.fontawesome.com/96dcb489df.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <h1>CHATTY FR</h1>
+            <h1><a href="index.html">1DUSTRY</a></h1>
         </div>
         <!-- menu responsive -->
         <div class="toggle-menu"></div>
 
         <ul class="menu">
-            <li><a href="index.html">Accueil</a></li>
             <li><a href="forums.html">Forums</a></li>
             <li><a href="contacter.html">Me contacter</a></li>
             <li><a href="propos.html">A propos</a></li>
         </ul>
     </header>
-    <section>
-        <div class="left">
-            <div class="search-box">
-                <img src="images/search.png">
-                <input type="text">
-            </div>
-            <hr>
-            <h1>Bienvenue sur CHATTY FR, j'espère que tu ne sera pas déçu !</h1>
-        <div class="social">
-            <ul>
-                <li class="instagram">
-                    <a href="https://www.instagram.com">
-                        <img src="images/instagram.png">
-                    </a>
-                </li>
-                <li class="facebook">
-                    <a href="https://www.facebook.com">
-                        <img src="images/facebook.png">
-                    </a>
-                </li>
-                <li class="twitter">
-                    <a href="https://www.twitter.com">
-                        <img src="images/twitter.png">
-                    </a>
-                </li>
-            </ul>
+
+    <section class="section1">
+        <div class="bienvenueI">
+            <h1>Bienvenue sur <em>1DUSTRY</em>, j'espère que mon site WEB va te plaire !</h1>
         </div>
-        </div>
-        <!-- right div -->
-        <div class="right">
-             <img src="images/img.png">
+        <div class="img-pc">
+            <img src="images/pc-code.svg">
         </div>
     </section>
 
+    <section class="section2">
+        <h3>Comment en suis-je arrivé là ?</h3>
+        <p>Tout à commencé avec une envie de devenir développeur WEB. Je me suis renseigné et j'ai commencé à coder mon
+            tout premier site Internet. Tout ça cest grâce à Benjamin Code sur <a href="https://www.youtube.com/c/BenjaminCode" target="_blank"><strong>YouTube</strong></a>. 
+        Je me suis donc lancé dans la programmation en apprenant les bases du HTML & CSS et je commence actuellement à essayer le JavaScript.</p>
+    </section>
+
+    <section class="section3">
+
+    </section>
+
+    <section class="section4">
+
+    </section>
+
     <footer>
-        <h5>Des questions ? Appellez le 07-81-19-53-82</h5>
-        <h3>© 2022 Chatty FR</h3>
-        <h2> <a href="conditions.html">Conditions générales d'utilisation</a> | <a href="mentions.html">Mentions légales</a></h2>
-        <p>Lyon, France</p>
-      </footer>
+        <h3>Des questions ? Appellez le 07-81-19-53-82</h3>
+        <p>© 2022 | Tous Droits Réservés</p>
+        <h2> <a href="politique.html" target="_blank">Politique de Confidentialité</a></h2>
+    </footer>
 
-<script>
-    var menu = document.querySelector(".menu");
-    var toggle_menu = document.querySelector(".toggle-menu");
-    toggle_menu.onclick = function(){
-        toggle_menu.classList.toggle('active') ;
-        menu.classList.toggle('responsive') ;
-    }
-</script>
-
+    <script>
+        var menu = document.querySelector(".menu");
+        var toggle_menu = document.querySelector(".toggle-menu");
+        toggle_menu.onclick = function () {
+            toggle_menu.classList.toggle('active');
+            menu.classList.toggle('responsive');
+        }
+    </script>
 </body>
+
 </html>

@@ -1,58 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CHATTY FR | Forums</title>
-    <link rel="stylesheet" href="style2.css">
+    <title>1DUSTRY | FORUMS</title>
+    <link rel="stylesheet" href="style.css">
+    <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://translate.googleapis.com/translate_static/css/translateelement.css">
     <script src="https://kit.fontawesome.com/96dcb489df.js" crossorigin="anonymous"></script>
 </head>
+
 <body>
     <header>
         <div class="logo">
-            <h1>CHATTY FR</h1>
+            <h1><a href="index.html">1DUSTRY</a></h1>
         </div>
         <!-- menu responsive -->
         <div class="toggle-menu"></div>
 
         <ul class="menu">
-            <li><a href="index.html">Accueil</a></li>
             <li><a href="forums.html">Forums</a></li>
             <li><a href="contacter.html">Me contacter</a></li>
             <li><a href="propos.html">A propos</a></li>
         </ul>
     </header>
-    <section>
-        <div class="left">
-            <div class="search-box">
-                <img src="images/search.png">
-                <input type="text">
+    
+    <section class="section1">
+            <div class="bienvenueF">
+                <h1>Bienvenue sur la page de <em>FORUMS</em> !</h1>
             </div>
-            <hr>
-            <h1>Bienvenue sur la rubrique <strong>FORUMS</strong>.</h1>
-        </div>
-        <!-- right div -->
-        <div class="right">
-             <img src="images/img.png">
-        </div>
+            <div class="img-pc">
+                <img src="images/message.svg">
+            </div>
     </section>
 
     <footer>
-        <h5>Des questions ? Appellez le 07-81-19-53-82</h5>
-        <h3>© 2022 Chatty FR</h3>
-        <h2> <a href="conditions.html">Conditions générales d'utilisation</a> | <a href="mentions.html">Mentions légales</a></h2>
-        <p>Lyon, France</p>
-      </footer>
+        <h3>Des questions ? Appellez le 07-81-19-53-82</h3>
+        <p>© 2022 | Tous Droits Réservés</p>
+        <h2> <a href="politique.html">Politique de Confidentialité</a></h2>
+    </footer>
 
-<script>
-    var menu = document.querySelector(".menu");
-    var toggle_menu = document.querySelector(".toggle-menu");
-    toggle_menu.onclick = function(){
-        toggle_menu.classList.toggle('active') ;
-        menu.classList.toggle('responsive') ;
-    }
-</script>
+    <script>
+        var menu = document.querySelector(".menu");
+        var toggle_menu = document.querySelector(".toggle-menu");
+        toggle_menu.onclick = function () {
+            toggle_menu.classList.toggle('active');
+            menu.classList.toggle('responsive');
+        }
+    </script>
+
+    <script src="app.js"></script>
 
 </body>
+
 </html>
